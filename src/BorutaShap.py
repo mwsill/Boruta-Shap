@@ -1,5 +1,5 @@
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor, IsolationForest
-from sklearn.datasets import load_breast_cancer, load_boston
+from sklearn.datasets import load_breast_cancer
 from statsmodels.stats.multitest import multipletests
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
